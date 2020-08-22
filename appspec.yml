@@ -1,14 +1,14 @@
 version: 0.0
 os: linux
 files:
-  - source: /express.js
+  - source: express.js
     destination: /home/bitnami/express.js
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
       timeout: 300
       runas: root
-  ApplicationStart:
-    - location: scripts/start_server
-      timeout: 300
-      runas: root
+#   ApplicationStart:
+#     - location: scripts/start_server
+#       timeout: 300
+#       runas: root

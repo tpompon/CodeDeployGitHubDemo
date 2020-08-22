@@ -1,2 +1,2 @@
 #!/bin/bash
-node /home/bitnami/express.js
+sudo node /home/bitnami/express.js

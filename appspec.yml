@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: express.js
+  - source: application
     destination: /home/bitnami/kastor_customize
 hooks:
   BeforeInstall:

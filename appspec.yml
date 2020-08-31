@@ -1,6 +1,7 @@
 version: 0.0
 os: linux
 files:
+  overwrite: true
   - source: application
     destination: /home/bitnami/kastor_customize
 hooks:

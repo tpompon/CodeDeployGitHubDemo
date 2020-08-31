@@ -1,3 +1,2 @@
 #!/bin/bash
-cd /home/bitnami && sudo npm i express -y
-
+cd /home/bitnami/kastor_customize && sudo npm i next -y

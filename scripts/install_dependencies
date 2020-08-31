@@ -1,2 +1,6 @@
 #!/bin/bash
-mkdir -p /home/bitnami/kastor_customize && cd /home/bitnami/kastor_customize && sudo npm i
+
+sudo rm -rf /home/bitnami/kastor_customize \
+  && mkdir /home/bitnami/kastor_customize \
+  && cd /home/bitnami/kastor_customize \
+  && sudo npm i
